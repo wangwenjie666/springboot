@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: org.spring.demo.TestUserInfoJpa
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.998 s <<< FAILURE! - in org.spring.demo.TestUserInfoJpa
+insert  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: 
+Logback configuration error detected: 
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@68be8808 - Failed to instantiate converter class [pdfc.framework.aop.log.util.LogIP] for keyword [ip] ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type pdfc.framework.aop.log.util.LogIP
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@68be8808 - [ip] is not a valid conversion word
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@32193bea - Failed to instantiate converter class [pdfc.framework.aop.log.util.LogIP] for keyword [ip] ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type pdfc.framework.aop.log.util.LogIP
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@32193bea - [ip] is not a valid conversion word
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@6b8d96d9 - Failed to instantiate converter class [pdfc.framework.aop.log.util.LogIP] for keyword [ip] ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type pdfc.framework.aop.log.util.LogIP
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@6b8d96d9 - [ip] is not a valid conversion word
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@69653e16 - Failed to instantiate converter class [pdfc.framework.aop.log.util.LogIP] for keyword [ip] ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type pdfc.framework.aop.log.util.LogIP
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@69653e16 - [ip] is not a valid conversion word
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@758705fa - Failed to instantiate converter class [pdfc.framework.aop.log.util.LogIP] for keyword [ip] ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type pdfc.framework.aop.log.util.LogIP
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@758705fa - [ip] is not a valid conversion word
+
+testFindAllByName  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: 
+Logback configuration error detected: 
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@178213b - Failed to instantiate converter class [pdfc.framework.aop.log.util.LogIP] for keyword [ip] ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type pdfc.framework.aop.log.util.LogIP
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@178213b - [ip] is not a valid conversion word
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@7103cb56 - Failed to instantiate converter class [pdfc.framework.aop.log.util.LogIP] for keyword [ip] ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type pdfc.framework.aop.log.util.LogIP
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@7103cb56 - [ip] is not a valid conversion word
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@1b765a2c - Failed to instantiate converter class [pdfc.framework.aop.log.util.LogIP] for keyword [ip] ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type pdfc.framework.aop.log.util.LogIP
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@1b765a2c - [ip] is not a valid conversion word
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@2e8e8225 - Failed to instantiate converter class [pdfc.framework.aop.log.util.LogIP] for keyword [ip] ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type pdfc.framework.aop.log.util.LogIP
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@2e8e8225 - [ip] is not a valid conversion word
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@6ebf0f36 - Failed to instantiate converter class [pdfc.framework.aop.log.util.LogIP] for keyword [ip] ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type pdfc.framework.aop.log.util.LogIP
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@6ebf0f36 - [ip] is not a valid conversion word
+

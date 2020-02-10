@@ -1,0 +1,24 @@
+server:
+  port: 8000
+
+spring:
+  output:
+    ansi:
+      enabled: always
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    properties:
+      hibernate:
+        format_sql: true
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///springboot-jpa?characterEncoding=utf8&useSSL=true
+    username: root
+    password: root
+#jpa 日志
+logging:
+  level:
+   org.hibernate.type.descriptor.sql.BasicBinder: trace

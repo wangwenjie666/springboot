@@ -1,0 +1,26 @@
+server:
+  port: 8000
+
+spring:
+  output:
+    ansi:
+      enabled: always
+  jpa:
+    # 需要创建表是innodb引擎才能进行事务回滚
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    database: mysql
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///springboot-jpa?characterEncoding=utf8&useSSL=true
+    username: root
+    password: root
+#jpa 日志
+logging:
+  level:
+   org.hibernate.type.descriptor.sql.BasicBinder: trace
